@@ -51,4 +51,4 @@ def get_system_uptime():
     uptime_str = {"Uptime": f"{int(uptime_days)} days, {int(uptime_hours % 24)} hours, {int(uptime_minutes % 60)} minutes, {int(uptime_seconds % 60)} seconds"}
     return jsonify(uptime_str)
 if __name__ == "__main__":
-    app.run(debug=True,port=8001)
+    app.run(debug=True,port=8080)
